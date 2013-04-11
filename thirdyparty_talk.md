@@ -70,27 +70,24 @@ The first part is really important because she don't have to wait for "domReady"
 Show an Adlayer adplacement
 
 ## Iframeless
-Iframes isolates the content from thirdy-party which is a good thing when you don't trust the content.
-All content placed in your page are inserted by you, so you should not be worried about that.
+Iframes isolates the content from thirdy-party, which is a good thing when you don't trust the content being loaded.
+With Adlyer all content placed in your page are inserted by you, so you should not be worried about this.
 
-Iframes are also hard to customize, our tech were built for packability for extensibility, Iframes don't.
+Iframes are also hard to customize, our tech was built for hackability for extensibility, Iframes don't.
 
-Actually exists a way to interact to iframe content using HTML5 postMessage.
-
-But obviously it will not work on old browsers and looks stupid for some interaction.
-
+Actually exists a way to interact to iframe content using HTML5 postMessage. But obviously it will not work on old browsers and looks stupid for some interaction.
 
 ## How data is tracked ?
-We have the same origin police again to track things
+We have the same origin police problem again:
 
 So the options are: 
 * JSONPI (JSON + Padding + Iframe)
 * Pixel tracking
 
-Why choose pixel tracking ?
+Why we choose pixel tracking ?
 JSONPI aka iframe POST allows you to get the response of server in the iframe content. 
 
-Bu for us, the response does not matter, the user are not interested about if they have been tracked or not.
+But for us, the response does not matter, the user are not interested about if they have been tracked or not.
 
 
 ## Why to open source ?
