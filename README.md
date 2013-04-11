@@ -9,7 +9,7 @@ This is a set of open APIs and [open source projects](http://github.com/adlayer)
 
 ## We know what display ads **really** means.
 
-Display ads is all type of graphical ads placed on web pages and we believe that we have created the best technology to put in on that.
+> Display ads is all type of graphical ads placed on web pages and we believe that we have created the best technology to put in on that.
 
 We believe that the cure for "banner blindness" is just creativity, so we are providing the tools to power your creativity.
 
