@@ -14,23 +14,23 @@ We believe that the cure for "banner blindness" is just creativity, so we are pr
 ## It includes
 * [Adlayer Open APIs](http://adlayer.com.br/documentation)
 
-- [Adserving API](http://github.com/adlayer/adserver-api-docs)
+	- [Adserving API](http://github.com/adlayer/adserver-api-docs)
 
-- [Tracking API](http://github.com/adlayer/tracker-api-docs)
+	- [Tracking API](http://github.com/adlayer/tracker-api-docs)
 
-- Management API **SOON**
+	- Management API **SOON**
 
 * [Javascript SDK](http://github.com/adlayer/javascript-sdk)
 
-- [Library](http://github.com/adlayer/javascript-library)
+	- [Library](http://github.com/adlayer/javascript-library)
 
-- [Javascript Client api](http://github.com/adlayer/javascript-api)
+	- [Javascript Client api](http://github.com/adlayer/javascript-api)
 
-- [Widgets](http://github.com/adlayer/javascript-api)
+	- [Widgets](http://github.com/adlayer/javascript-api)
 
-- [Portable Integration Test](http://github.com/integration-test)
+	- [Portable Integration Test](http://github.com/integration-test)
 
-- [Gallery](http://github.com/adlayer/gallery)
+	- [Gallery](http://github.com/adlayer/gallery)
 
 ## Share with developers of you company, ask they what they think about us.
 
