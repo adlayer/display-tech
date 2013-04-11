@@ -8,10 +8,11 @@ Adlayer is the best platform to manage delivery and measure the result of online
 ### How other guys do:
 Most ad servers are placed like this:
 
-```
+```html
 <script>
 	OAS_AD('x07');
 </script>
+```
 
 This is bad:
 
@@ -23,16 +24,19 @@ This is bad:
 	document.write('<a href="'+OAS_url	+"click_nx.ads/"+OAS_sitepage+"/1"+OAS_rns+"@"+OAS_listpos+"!"+pos+"?"+OAS_query+'" target="'+OAS_target+'">');
 
 document.write('<img src="'+OAS_url+"adstream_nx.ads/"+OAS_sitepage+"/1"+OAS_rns+"@"+OAS_listpos+"!"+pos+"?"+OAS_query+'" border="0"></a>');
+```
 
 Some people are doing it worse:
 
 ```html
 OAS_rn=new String(Math.random());OAS_rns=OAS_rn.substring(2,11);document.write("<scr"+"ipt type='text/javascript' src='http://ads.example.com/Adserver/ads/adstream_jx.ads/example.com/example.com/home/1" + OAS_rns +"@Top1'><\/script>");
+```
 
 Which will obviouslly  write:
 
 ```html
 <script type="text/javascript" src="http://ads.example.com/Adserver/ads/adstream_jx.ads/example.com/example.com/home/1189969050@Top1"></script>
+```
 
 The last part will load another script synchronous (blocking content).
 
@@ -46,7 +50,7 @@ The last part will load another script synchronous (blocking content).
 <body>
 	<div class="adlayer_space" id="jdcsdc9d9csdc"></div>
 </body>
-
+```
 Using the async method to load the script don't force us to put it in the end of body. We like it at head and downloads in background.
 
 Basically what the space.js does is:
