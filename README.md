@@ -1,5 +1,5 @@
 # Adlayer Open Display Tech
-The most innovative and flexible way to show online ads.
+**The most innovative and flexible way to show online ads.**
 
 There're a lot of ad buying and selling solutions, but all this ads still have to be displayed, and do this with the best quality ever is the purpose of **Adlayer Open display tech**.
 
