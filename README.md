@@ -5,6 +5,8 @@ There're a lot of ad buying and selling solutions, but all this ads still have t
 
 This is a set of open APIs and [open source projects](http://github.com/adlayer), which gives power and autonomy for developers show and hack ads on the web.
 
+<img title="Adlayer open display tech" alt="Adlayer Tech Diagram" src="https://raw.github.com/adlayer/display-tech/master/images/delivery_entity_relationship.png" />
+
 ## We know what display ads **really** means.
 
 Display ads is all type of graphical ads placed on web pages and we believe that we have created the best technology to put in on that.
