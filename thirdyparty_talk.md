@@ -55,6 +55,7 @@ The last part will load another script synchronous (blocking content).
 Using the async method to load the script don't force us to put it in the end of body. We like it at head and downloads in background.
 
 Basically what the space.js does is:
+
 1. Load the content using JSONP
 2. Render each space when the DOM is ready
 
