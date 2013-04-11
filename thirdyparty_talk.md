@@ -8,7 +8,10 @@ Adlayer is the best platform to manage delivery and measure the result of online
 ### How other guys do:
 Most ad servers are placed like this:
 
-
+```
+<script>
+	OAS_AD('x07');
+</script>
 
 This is bad:
 
@@ -16,7 +19,7 @@ This is bad:
 2. This is a inline script (Dom monster says that it makes parsing slow)
 3. The greater problem is that what this function is doing is actually:
 
-```javascript
+```
 	document.write('<a href="'+OAS_url	+"click_nx.ads/"+OAS_sitepage+"/1"+OAS_rns+"@"+OAS_listpos+"!"+pos+"?"+OAS_query+'" target="'+OAS_target+'">');
 
 document.write('<img src="'+OAS_url+"adstream_nx.ads/"+OAS_sitepage+"/1"+OAS_rns+"@"+OAS_listpos+"!"+pos+"?"+OAS_query+'" border="0"></a>');
