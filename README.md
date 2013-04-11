@@ -1,7 +1,7 @@
 # Adlayer Open Display Tech
 **The most innovative and flexible way to show online ads.**
 
-There're a lot of ad buying and selling solutions, but all this ads still have to be displayed, and do this with the best quality ever is the purpose of **Adlayer Open display tech**.
+There are a lot of ad buying and selling solutions out there, but all this ads still have to be displayed, and do this with the best quality possible is the purpose of **Adlayer Open display tech**.
 
 This is a set of open APIs and [open source projects](http://github.com/adlayer), which gives power and autonomy for developers show and hack ads on the web.
 
@@ -9,11 +9,11 @@ This is a set of open APIs and [open source projects](http://github.com/adlayer)
 
 ## We know what display ads **really** means.
 
-> Display ads is all type of graphical ads placed on web pages and we believe that we have created the best technology to put in on that.
+> Display ads is all type of graphical ads placed on web pages and we have created the best technology to make it happen.
 
 We believe that the cure for "banner blindness" is just creativity, so we are providing the tools to power your creativity.
 
-## It includes
+## This includes
 * [Adlayer Open APIs](http://adlayer.com.br/documentation)
 
 	- [Adserving API](http://github.com/adlayer/adserver-api-docs)
