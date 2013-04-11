@@ -8,10 +8,7 @@ Adlayer is the best platform to manage delivery and measure the result of online
 ### How other guys do:
 Most ad servers are placed like this:
 
-```html
-<script>
-	OAS_AD('x07');
-</script>
+
 
 This is bad:
 
