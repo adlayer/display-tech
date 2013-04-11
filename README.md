@@ -3,7 +3,7 @@ The most innovative and flexible way to show online ads.
 
 There're a lot of ad buying and selling solutions, but all this ads still have to be displayed, and do this with the best quality ever is the purpose of **Adlayer Open display tech**.
 
-It is a set of open APIs and open source projects, which give power and autonomy for developers show and hack ads on the web.
+This is a set of open APIs and [open source projects](http://github.com/adlayer), which gives power and autonomy for developers show and hack ads on the web.
 
 ## We know what display ads **really** means.
 
@@ -13,15 +13,23 @@ We believe that the cure for "banner blindness" is just creativity, so we are pr
 
 ## It includes
 * [Adlayer Open APIs](http://adlayer.com.br/documentation)
+
 ** [Adserving API](http://github.com/adlayer/adserver-api-docs)
+
 ** [Tracking API](http://github.com/adlayer/tracker-api-docs)
+
 ** Management API **SOON**
 
 * [Javascript SDK](http://github.com/adlayer/javascript-sdk)
+
 ** [Library](http://github.com/adlayer/javascript-library)
+
 ** [Javascript Client api](http://github.com/adlayer/javascript-api)
+
 ** [Widgets](http://github.com/adlayer/javascript-api)
+
 ** [Portable Integration Test](http://github.com/integration-test)
+
 ** [Gallery](http://github.com/adlayer/gallery)
 
 ## Share with developers of you company, ask they what they think about us.
