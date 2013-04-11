@@ -19,7 +19,20 @@ This is bad:
 2. This is a inline script (Dom monster says that it makes parsing slow)
 3. The greater problem is that what this function is doing is actually:
 
+```javascript
+	document.write('<a href="'+OAS_url	+"click_nx.ads/"+OAS_sitepage+"/1"+OAS_rns+"@"+OAS_listpos+"!"+pos+"?"+OAS_query+'" target="'+OAS_target+'">');
 
+document.write('<img src="'+OAS_url+"adstream_nx.ads/"+OAS_sitepage+"/1"+OAS_rns+"@"+OAS_listpos+"!"+pos+"?"+OAS_query+'" border="0"></a>');
+
+Some people are doing it worse:
+
+```html
+OAS_rn=new String(Math.random());OAS_rns=OAS_rn.substring(2,11);document.write("<scr"+"ipt type='text/javascript' src='http://ads.example.com/Adserver/ads/adstream_jx.ads/example.com/example.com/home/1" + OAS_rns +"@Top1'><\/script>");
+
+Which will obviouslly  write:
+
+```html
+<script type="text/javascript" src="http://ads.example.com/Adserver/ads/adstream_jx.ads/example.com/example.com/home/1189969050@Top1"></script>
 
 The last part will load another script synchronous (blocking content).
 
