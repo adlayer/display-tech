@@ -30,7 +30,7 @@ We believe that the cure for "banner blindness" is just creativity, so we are pr
 
 	- [Widgets](http://github.com/adlayer/javascript-api)
 
-	- [Portable Integration Test](http://github.com/adlayer/integration-test)
+	- [Portable Integration Test](http://github.com/adlayer/javascript-integration-test)
 
 	- [Gallery](http://github.com/adlayer/gallery)
 
