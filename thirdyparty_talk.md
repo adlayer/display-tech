@@ -97,6 +97,8 @@ http://blog.adlayer.org/post/45140005964/blocos-asyncronous-vs-codigo-elegante
 
 http://velocityconf.com/velocity2010/public/schedule/detail/15412
 
+http://blog.socialcast.com/third-party-javascript/
+
 http://www.olark.com/spw/2011/10/lightningjs-safe-fast-and-asynchronous-third-party-javascript/
 
 https://www.webkit.org/blog/1395/running-scripts-in-webkit/
