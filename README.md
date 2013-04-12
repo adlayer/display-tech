@@ -14,7 +14,7 @@ This is a set of open APIs and [open source projects](http://github.com/adlayer)
 We believe that the cure for "banner blindness" is just creativity, so we are providing the tools to power your creativity.
 
 ## This includes
-* [Adlayer Open APIs](http://adlayer.com.br/documentation)
+* [Adlayer Open APIs](https://github.com/adlayer/api-docs)
 
 	- [Adserving API](http://github.com/adlayer/adserver-api-docs)
 
