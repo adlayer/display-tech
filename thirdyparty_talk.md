@@ -22,7 +22,7 @@ This is bad:
 
 2. This is a inline script ([Dom monster](http://mir.aculo.us/dom-monster/) says that it makes parsing slow)
 
-<img scr="https://raw.github.com/adlayer/display-tech/master/benchmarks/imgs/dom_monster_inline_javascript_tip.png" />
+<img src="https://raw.github.com/adlayer/display-tech/master/benchmarks/imgs/dom_monster_inline_javascript_tip.png" />
 
 3. The biggest problem is that what this function is doing actually is:
 
