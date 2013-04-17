@@ -36,6 +36,7 @@ Here's what [Jshint](http://www.jslint.com) says about ```document.write```:
 <img src="https://raw.github.com/adlayer/display-tech/master/benchmarks/imgs/jshint_document_write_error.png" />
 
 And here is what Douglas Crockford says about ```eval```:
+
 <img src="https://raw.github.com/adlayer/display-tech/master/benchmarks/imgs/eval_is_evil.png" />
 
 Some people are doing it even worse:
