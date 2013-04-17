@@ -20,10 +20,11 @@ This is bad:
 
 [<img src="http://d.alistapart.com/understandingprogressiveenhancement/m-m.jpg" />](http://alistapart.com/article/understandingprogressiveenhancement)
 
-2. This is a inline script (Dom monster says that it makes parsing slow)
+2. This is a inline script ([Dom monster](http://mir.aculo.us/dom-monster/) says that it makes parsing slow)
 
-<img scr="dom_monster_inline_javascript_tip" />
-3. The greater problem is that what this function is doing is actually:
+<img scr="https://raw.github.com/adlayer/display-tech/master/benchmarks/imgs/dom_monster_inline_javascript_tip.png" />
+
+3. The biggest problem is that what this function is doing actually is:
 
 ```
 document.write('<a href="'+OAS_url	+"click_nx.ads/"+OAS_sitepage+"/1"+OAS_rns+"@"+OAS_listpos+"!"+pos+"?"+OAS_query+'" target="'+OAS_target+'">');
