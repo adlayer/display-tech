@@ -53,7 +53,10 @@ Which will obviously write:
 <script type="text/javascript" src="http://ads.example.com/Adserver/ads/adstream_jx.ads/example.com/example.com/home/1189969050@Top1"></script>
 ```
 
-The last part will load another script synchronous (blocking content).
+This recursive and synchronous script loading technique could block the page content for some time.
+
+<img src="https://raw.github.com/adlayer/display-tech/master/benchmarks/imgs/recursive_sync_script_call.png" />
+
 
 ### How we do:
 
