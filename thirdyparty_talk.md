@@ -17,6 +17,7 @@ Most ad servers are placed like this:
 This is bad:
 
 1. We are hurting the concept by web standards guys "in layers development".
+<img src="http://25.media.tumblr.com/32a4dc3e65daa2487834f241c785f62c/tumblr_milapc3bID1qzopwro1_1280.jpg" />
 2. This is a inline script (Dom monster says that it makes parsing slow)
 3. The greater problem is that what this function is doing is actually:
 
