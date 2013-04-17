@@ -21,6 +21,8 @@ This is bad:
 [<img src="http://d.alistapart.com/understandingprogressiveenhancement/m-m.jpg" />](http://alistapart.com/article/understandingprogressiveenhancement)
 
 2. This is a inline script (Dom monster says that it makes parsing slow)
+
+<img scr="dom_monster_inline_javascript_tip" />
 3. The greater problem is that what this function is doing is actually:
 
 ```
