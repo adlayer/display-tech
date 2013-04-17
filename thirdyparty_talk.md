@@ -31,10 +31,14 @@ document.write('<a href="'+OAS_url	+"click_nx.ads/"+OAS_sitepage+"/1"+OAS_rns+"@
 document.write('<img src="'+OAS_url+"adstream_nx.ads/"+OAS_sitepage+"/1"+OAS_rns+"@"+OAS_listpos+"!"+pos+"?"+OAS_query+'" border="0"></a>');
 ```
 
-Here's what [Jshint](http://www.jslint.com) says about ```document.write```
+Here's what [Jshint](http://www.jslint.com) says about ```document.write```:
+
 <img src="https://raw.github.com/adlayer/display-tech/master/benchmarks/imgs/jshint_document_write_error.png" />
 
-Some people are doing it worse:
+And here is what Douglas Crockford says about ```eval```:
+<img src="https://raw.github.com/adlayer/display-tech/master/benchmarks/imgs/eval_is_evil.png" />
+
+Some people are doing it even worse:
 
 ```html
 OAS_rn=new String(Math.random());
