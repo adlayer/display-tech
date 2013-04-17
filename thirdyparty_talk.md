@@ -108,16 +108,32 @@ Iframes are also hard to customize, our tech was built for hackability for exten
 Actually exists a way to interact to iframe content using HTML5 postMessage. But obviously it will not work on old browsers and looks stupid for some interaction.
 
 ## How data is tracked ?
-We have the same origin police problem again:
+Given the "same origin police" problem, there are few options to track data on thirdy-party libs:
 
-So the options are: 
 * JSONPI (JSON + Padding + Iframe)
 * Pixel tracking
 
-Why we choose pixel tracking ?
-JSONPI aka iframe POST allows you to get the response of server in the iframe content. 
+#### JSONPI
+JSONPI Is a technique that creates virtual iframes embedding some forms from other domains and allow thirdy-party libs to submit data over the web.
 
-But for us, the response does not matter, the user are not interested about if they have been tracked or not.
+#### Pixel Tracking
+Pixel Tracking, Web beacon or Image Tracking is a highly used technique to track data used by adservices, web analytics and other tools.
+
+Basically what it does is create an image tag virtually from some url passing the tracking data as query string.
+
+The server have the responsibility to read the query string and persist it even it not being a PUT to PUT request (Default http methods for save data on the web).
+
+
+#### Why we choose Pixel Tracking ?
+JSONPI aka iframe POST allows you to get the response of server in the iframe content. Knows the server response can be usefull  to know if everything worked as expected or something get wrong.
+
+But in the real world with a lot of request per second reaching our servers, what a client-side library could do if something get wrong ?
+
+Users change pages more quickly that we can retry the operation, so the response of the server is not much useful there nothing to do.
+
+We can't make the user wait to be sure that he have being tracked. So Pixel tracking makes sense, response does not matter and we don't even have to worry if it have completed or not.
+
+This could leaves to inconsistency ? yes but every tracking method will be inconsistency at this times. Visitors moves fast between pages and choose the fastest way to track they is the best we can do.
 
 
 ## Why to open source ?
