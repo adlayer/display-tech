@@ -31,6 +31,9 @@ document.write('<a href="'+OAS_url	+"click_nx.ads/"+OAS_sitepage+"/1"+OAS_rns+"@
 document.write('<img src="'+OAS_url+"adstream_nx.ads/"+OAS_sitepage+"/1"+OAS_rns+"@"+OAS_listpos+"!"+pos+"?"+OAS_query+'" border="0"></a>');
 ```
 
+Here's what [Jshint](http://www.jslint.com) says about ```document.write```
+<img src="https://raw.github.com/adlayer/display-tech/master/benchmarks/imgs/jshint_document_write_error.png" />
+
 Some people are doing it worse:
 
 ```html
