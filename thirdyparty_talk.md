@@ -77,7 +77,7 @@ Basically what the space.min.js do is:
 1. Load the content using JSONP
 2. Render each space (div tag) when the DOM is ready
 
-This is fast because it download the JSONP request even before the "DOM is Ready".
+This is fast because it download the JSONP request even before the "DOM is Ready". [reference](http://alexsexton.com/blog/2010/01/dont-let-document-ready-slow-you-down)
 
 ## How ads are displayed ?
 
