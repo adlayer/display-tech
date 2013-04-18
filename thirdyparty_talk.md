@@ -57,6 +57,19 @@ This recursive and synchronous script loading technique could block the page con
 
 <img src="https://raw.github.com/adlayer/display-tech/master/benchmarks/imgs/recursive_sync_script_call.png" />
 
+Sometimes this services also inject some code like this:
+
+```javascript
+var oasObj = {};
+oasObj.tipo = "oas_flash";
+oasObj.div = oas_div;
+oasObj.width = 300;
+oasObj.height = 100;
+oasObj.wmode = "transparent";
+```
+
+By just assign values to variables in the ```global level``` disable this codes to run async and extends the chances of **conflict** with other ads of thirdy-party or with the site script variable.
+
 ----------------------------
 
 ### How Adlayer do:
